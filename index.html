@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Personal Anggy Jogo Kurniawan - Mahasiswa Informatika & Web Developer">
+    <title>Anggy Jogo Kurniawan | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ===== BACKGROUND GRID + GLOW ===== -->
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-symbol">&lt;/&gt;</span>
+            <span class="logo-text">anggy<span class="logo-dot">.</span>dev</span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="#tentang"><span>01.</span> Tentang</a></li>
+            <li><a href="#skill"><span>02.</span> Skill</a></li>
+            <li><a href="#pengalaman"><span>03.</span> Pengalaman</a></li>
+            <li><a href="#kontak"><span>04.</span> Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+
+            <p class="hero-tag">
+                <span class="tag-dot"></span>
+                Available for collaboration
+            </p>
+
+            <h1 class="hero-title">
+                <span class="hero-line">Hi, I'm</span>
+                <span class="hero-name">Anggy Jogo Kurniawan</span>
+            </h1>
+
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="dot dot-red"></span>
+                    <span class="dot dot-yellow"></span>
+                    <span class="dot dot-green"></span>
+                    <span class="terminal-title">anggy@portfolio:~$</span>
+                </div>
+                <div class="terminal-body">
+                    <p>
+                        <span class="prompt">$</span>
+                        <span class="cmd">whoami</span>
+                    </p>
+                    <p class="output">
+                        <span id="typing"></span><span class="cursor">▊</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="hero-badges">
+                <span class="badge"><i class="fas fa-graduation-cap"></i> Informatika</span>
+                <span class="badge"><i class="fas fa-code"></i> Web Developer</span>
+                <span class="badge"><i class="fas fa-rocket"></i> Initiator</span>
+                <span class="badge"><i class="fas fa-trophy"></i> MLBB Champion</span>
+                <span class="badge"><i class="fas fa-gamepad"></i> GTA Roleplayer</span>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#kontak" class="btn btn-primary">
+                    <i class="fas fa-terminal"></i> Hubungi Saya
+                </a>
+                <a href="#tentang" class="btn btn-outline">
+                    <i class="fas fa-arrow-down"></i> Kenali Saya
+                </a>
+            </div>
+
+        </div>
+
+        <div class="scroll-hint">
+            <span>SCROLL</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ===== TENTANG ===== -->
+        <section id="tentang" class="section reveal">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="section-num">01.</span>
+                    <h2 class="section-title">Tentang Saya</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-grid">
+
+                    <article class="about-card">
+                        <div class="card-glow"></div>
+                        <div class="about-icon"><i class="fas fa-user-astronaut"></i></div>
+                        <h3>Siapa Saya</h3>
+                        <p>
+                            Saya <strong>Anggy Jogo Kurniawan</strong>, mahasiswa
+                            <strong>Informatika</strong> yang fokus di dunia
+                            pengembangan web modern.
+                        </p>
+                    </article>
+
+                    <article class="about-card">
+                        <div class="card-glow"></div>
+                        <div class="about-icon"><i class="fas fa-gamepad"></i></div>
+                        <h3>Passion</h3>
+                        <p>
+                            Aktif sebagai <strong>GTA Roleplayer</strong> dan
+                            <strong>Esports Player</strong> — melatih kreativitas,
+                            improvisasi, dan komunikasi dalam tim.
+                        </p>
+                    </article>
+
+                    <article class="about-card">
+                        <div class="card-glow"></div>
+                        <div class="about-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3>Yang Saya Bangun</h3>
+                        <p>
+                            Menjadi <strong>developer pertama</strong> yang membangun
+                            <strong>website Kelas IPA 1</strong> — dari desain
+                            sampai implementasi kode.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILL ===== -->
+        <section id="skill" class="section reveal">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="section-num">02.</span>
+                    <h2 class="section-title">Skill &amp; Keahlian</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skill-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-head">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <h3>HTML &amp; CSS</h3>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-head">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <h3>Dasar Pemrograman</h3>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-head">
+                            <div class="skill-icon"><i class="fas fa-users"></i></div>
+                            <h3>Kerja Tim</h3>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-head">
+                            <div class="skill-icon"><i class="fas fa-gamepad"></i></div>
+                            <h3>GTA Roleplay</h3>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="95%"></div></div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-head">
+                            <div class="skill-icon"><i class="fas fa-trophy"></i></div>
+                            <h3>Mobile Legends</h3>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="92%"></div></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PENGALAMAN ===== -->
+        <section id="pengalaman" class="section reveal">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="section-num">03.</span>
+                    <h2 class="section-title">Pengalaman</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">SMA • IPA 1</span>
+                            <h3>Developer Pertama Website Kelas IPA 1</h3>
+                            <p>
+                                Menjadi <strong>developer pertama</strong> yang merancang
+                                dan membangun website untuk kelas IPA 1 — mulai dari
+                                konsep, desain tampilan, hingga implementasi HTML &amp; CSS.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Initiator</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Turnamen</span>
+                            <h3>Juara Tournament MLBB Kota Pasuruan</h3>
+                            <p>
+                                Meraih <strong>kemenangan di tournament Mobile Legends:
+                                Bang Bang tingkat Kota Pasuruan</strong> — hasil dari
+                                latihan intensif, strategi tim yang matang, dan kerja
+                                sama yang solid.
+                            </p>
+                            <div class="tags">
+                                <span>MLBB</span>
+                                <span>Esports</span>
+                                <span>Teamwork</span>
+                                <span>Champion</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Sekarang</span>
+                            <h3>GTA Roleplayer</h3>
+                            <p>
+                                Aktif bermain GTA Roleplay — melatih improvisasi,
+                                komunikasi, dan kerja sama tim secara real-time.
+                            </p>
+                            <div class="tags">
+                                <span>Roleplay</span>
+                                <span>Communication</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== KONTAK ===== -->
+        <section id="kontak" class="section reveal">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="section-num">04.</span>
+                    <h2 class="section-title">Mari Terhubung</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <p class="contact-desc">
+                    Saya terbuka untuk kolaborasi, diskusi proyek, atau sekadar ngobrol santai.
+                </p>
+
+                <div class="contact-grid">
+
+                    <a href="https://instagram.com/Zyknwn_" target="_blank" rel="noopener" class="contact-card">
+                        <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+                        <div class="contact-info">
+                            <span class="contact-label">Instagram</span>
+                            <span class="contact-value">@Zyknwn_</span>
+                        </div>
+                        <i class="fas fa-arrow-right contact-arrow"></i>
+                    </a>
+
+                    <a href="https://github.com/anggyjk" target="_blank" rel="noopener" class="contact-card">
+                        <div class="contact-icon"><i class="fab fa-github"></i></div>
+                        <div class="contact-info">
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value">anggyjk</span>
+                        </div>
+                        <i class="fas fa-arrow-right contact-arrow"></i>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <span class="footer-code">&lt;/&gt;</span>
+                Dibangun oleh <strong>Anggy Jogo Kurniawan</strong>
+                <span class="footer-sep">•</span>
+                &copy; 2026
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // ===== TYPING ANIMATION =====
+        const texts = [
+            "Mahasiswa Informatika",
+            "Web Developer",
+            "GTA Roleplayer",
+            "MLBB Champion Pasuruan",
+            "Developer Website Kelas IPA 1"
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.getElementById('typing');
+
+        function type() {
+            const currentText = texts[textIndex];
+
+            if (isDeleting) {
+                typingElement.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingElement.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            let speed = isDeleting ? 40 : 80;
+
+            if (!isDeleting && charIndex === currentText.length) {
+                speed = 1800;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % texts.length;
+                speed = 400;
+            }
+
+            setTimeout(type, speed);
+        }
+        type();
+
+        // ===== NAVBAR SCROLL =====
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // ===== SCROLL REVEAL + SKILL BAR =====
+        const revealElements = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+
+                    if (entry.target.id === 'skill') {
+                        entry.target.querySelectorAll('.skill-fill').forEach(bar => {
+                            bar.style.width = bar.dataset.width;
+                        });
+                    }
+                }
+            });
+        }, { threshold: 0.15 });
+
+        revealElements.forEach(el => observer.observe(el));
+    </script>
+
+</body>
+</html>
